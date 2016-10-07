@@ -73,11 +73,6 @@
     <Content Include="systemjs.config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="typings.json" />
-    <Content Include="typings\globals\angular-protractor\typings.json" />
-    <Content Include="typings\globals\core-js\typings.json" />
-    <Content Include="typings\globals\jasmine\typings.json" />
-    <Content Include="typings\globals\node\typings.json" />
-    <Content Include="typings\globals\selenium-webdriver\typings.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -99,12 +94,6 @@
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\main.ts" />
-    <TypeScriptCompile Include="typings\globals\angular-protractor\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\core-js\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\jasmine\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\selenium-webdriver\index.d.ts" />
-    <TypeScriptCompile Include="typings\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
