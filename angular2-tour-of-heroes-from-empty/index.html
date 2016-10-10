@@ -1,6 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <!--<base href="/">-->
+    <base href="/angular2-tour-of-heroes-from-empty/"> <!-- Adjusted due to path in IIS, refer to http://stackoverflow.com/questions/34535163/angular-2-router-no-base-href-set for more info -->
+
     <title>Angular QuickStart</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,11 +18,11 @@
 
     <script src="systemjs.config.js"></script>
     <script>
-      System.import('app').catch(function(err){ console.error(err); });
+        System.import('app').catch(function (err) { console.error(err); });
     </script>
-  </head>
+</head>
 
-  <body>
+<body>
     <my-app>Loading...</my-app>
-  </body>
+</body>
 </html>
